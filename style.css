@@ -1,0 +1,117 @@
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+#top > a{
+  padding-right: 2em;
+  font-family: Helvetica, Dejavus Sans, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+#top > a:hover{
+    text-decoration: underline;
+}
+
+#sign-in:link, #sign-in:visited {
+  background-color: #1a73e8;
+  color: #dfdfdf;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#sign-in:hover, #sign-in:active {
+  background-color: #1a79f8;
+  text-decoration: none;
+  color: #dfdfdf;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+  background-color: rgba(240, 240, 240, 20);
+}
+#bottom > a{
+  padding: 5px;
+}
+
+#bottom > a{
+  padding-right: 2em;
+  font-family: Helvetica, Dejavus Sans, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #656565;
+}
+
+#bottom > a:hover{
+    text-decoration: underline;
+}
+
+#bottom #center-a{
+  display: block;
+  margin-right: auto;
+}
+
+#center{
+  display: block;
+  margin-bottom: 17%;
+  margin-top: 10%;  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  max-height: 50%;
+}
+
+input[type="text"]{
+  display: block;
+  width: 30%;
+  height: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+input[type="text"]:hover{
+  box-shadow: 2px 2px 8px #bbb;
+}
+input[type="text"]:focus{
+  box-shadow: 2px 2px 8px #bbb;
+  border-radius: 12px;
+}
+
+#flex-container{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+input[type="submit"]{
+  font-family: sans-serif;
+  color: #343434;
+  margin-top: 2em;
+  margin-right: 1em;
+  font-size: 16px;
+  border: 1px hidden;
+  background-color: rgba(240, 240, 240, .4);
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+input[type="submit"]:hover{
+  border: 1px hidden;
+  box-shadow: 0 0 4px #777;
+}
